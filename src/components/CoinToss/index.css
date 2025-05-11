@@ -1,0 +1,49 @@
+.card-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  padding: 60px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0px;
+}
+.card-white {
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.head {
+  color: #a35200;
+  padding: 10px;
+}
+
+.para {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.buttonStyling {
+  background-color: #f9d423;
+  color: #a35200;
+  border-width: 0px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  gap: 30px;
+}
+
+.image-styling{
+  height: 100px;
+  width: 100px;
+}
